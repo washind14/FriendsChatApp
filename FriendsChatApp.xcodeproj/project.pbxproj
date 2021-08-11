@@ -1,0 +1,496 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0580843A81E065E4E134569B /* Pods_FriendsChatApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4006BEA87C7A13482AE0ADAC /* Pods_FriendsChatApp.framework */; };
+		AB7656D5268D3CA100ED6994 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7656D4268D3CA100ED6994 /* AppDelegate.swift */; };
+		AB7656D7268D3CA100ED6994 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7656D6268D3CA100ED6994 /* SceneDelegate.swift */; };
+		AB7656DC268D3CA100ED6994 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB7656DA268D3CA100ED6994 /* Main.storyboard */; };
+		AB7656DE268D3CA500ED6994 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB7656DD268D3CA500ED6994 /* Assets.xcassets */; };
+		AB7656E1268D3CA500ED6994 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB7656DF268D3CA500ED6994 /* LaunchScreen.storyboard */; };
+		AB7656ED268D45B800ED6994 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7656EC268D45B800ED6994 /* LoginViewController.swift */; };
+		AB7656F1268D45C800ED6994 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7656F0268D45C800ED6994 /* SignUpViewController.swift */; };
+		AB7656F4268D45F400ED6994 /* MessagesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7656F3268D45F400ED6994 /* MessagesTableViewController.swift */; };
+		AB7656F8268D462100ED6994 /* HomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7656F7268D462100ED6994 /* HomeScreenViewController.swift */; };
+		AB7656FE268D4D9B00ED6994 /* Messages.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7656FD268D4D9B00ED6994 /* Messages.swift */; };
+		AB765701268D4E6100ED6994 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB765700268D4E6100ED6994 /* Constants.swift */; };
+		AB76570D268D5AAA00ED6994 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AB76570C268D5AAA00ED6994 /* GoogleService-Info.plist */; };
+		AB765775268D840900ED6994 /* MessagesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB765773268D840900ED6994 /* MessagesTableViewCell.swift */; };
+		AB765776268D840900ED6994 /* MessagesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB765774268D840900ED6994 /* MessagesTableViewCell.xib */; };
+		ABD23431268EC80A004C0487 /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD23430268EC80A004C0487 /* WeatherData.swift */; };
+		ABD23434268EC81E004C0487 /* WeatherDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD23433268EC81E004C0487 /* WeatherDetails.swift */; };
+		ABD23437268EC837004C0487 /* WeatherApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD23436268EC837004C0487 /* WeatherApi.swift */; };
+		ABD2343A268EC88B004C0487 /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD23439268EC88B004C0487 /* WeatherViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4006BEA87C7A13482AE0ADAC /* Pods_FriendsChatApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FriendsChatApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A424BF63FD21A4B7D015CB6F /* Pods-FriendsChatApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FriendsChatApp.release.xcconfig"; path = "Target Support Files/Pods-FriendsChatApp/Pods-FriendsChatApp.release.xcconfig"; sourceTree = "<group>"; };
+		AB7656D1268D3CA100ED6994 /* FriendsChatApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FriendsChatApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB7656D4268D3CA100ED6994 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AB7656D6268D3CA100ED6994 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AB7656DB268D3CA100ED6994 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AB7656DD268D3CA500ED6994 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB7656E0268D3CA500ED6994 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AB7656E2268D3CA500ED6994 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB7656EC268D45B800ED6994 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		AB7656F0268D45C800ED6994 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		AB7656F3268D45F400ED6994 /* MessagesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesTableViewController.swift; sourceTree = "<group>"; };
+		AB7656F7268D462100ED6994 /* HomeScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenViewController.swift; sourceTree = "<group>"; };
+		AB7656FD268D4D9B00ED6994 /* Messages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Messages.swift; sourceTree = "<group>"; };
+		AB765700268D4E6100ED6994 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		AB76570C268D5AAA00ED6994 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		AB765773268D840900ED6994 /* MessagesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesTableViewCell.swift; sourceTree = "<group>"; };
+		AB765774268D840900ED6994 /* MessagesTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessagesTableViewCell.xib; sourceTree = "<group>"; };
+		ABD23430268EC80A004C0487 /* WeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
+		ABD23433268EC81E004C0487 /* WeatherDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDetails.swift; sourceTree = "<group>"; };
+		ABD23436268EC837004C0487 /* WeatherApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherApi.swift; sourceTree = "<group>"; };
+		ABD23439268EC88B004C0487 /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
+		ABD2343D268EE3FB004C0487 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E5AA7A9F0D44D14AD510EB93 /* Pods-FriendsChatApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FriendsChatApp.debug.xcconfig"; path = "Target Support Files/Pods-FriendsChatApp/Pods-FriendsChatApp.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB7656CE268D3CA100ED6994 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0580843A81E065E4E134569B /* Pods_FriendsChatApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1EB025D13FE1E249D87A6408 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E5AA7A9F0D44D14AD510EB93 /* Pods-FriendsChatApp.debug.xcconfig */,
+				A424BF63FD21A4B7D015CB6F /* Pods-FriendsChatApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AB7656C8268D3CA100ED6994 = {
+			isa = PBXGroup;
+			children = (
+				AB7656D3268D3CA100ED6994 /* FriendsChatApp */,
+				AB7656D2268D3CA100ED6994 /* Products */,
+				1EB025D13FE1E249D87A6408 /* Pods */,
+				E6F2365FB0BEE7C6DA15974E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AB7656D2268D3CA100ED6994 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB7656D1268D3CA100ED6994 /* FriendsChatApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB7656D3268D3CA100ED6994 /* FriendsChatApp */ = {
+			isa = PBXGroup;
+			children = (
+				AB76570C268D5AAA00ED6994 /* GoogleService-Info.plist */,
+				AB7656EB268D45A000ED6994 /* Model */,
+				AB7656EA268D459800ED6994 /* View */,
+				AB7656E9268D459200ED6994 /* Controller */,
+				AB7656D4268D3CA100ED6994 /* AppDelegate.swift */,
+				AB7656D6268D3CA100ED6994 /* SceneDelegate.swift */,
+				AB7656DD268D3CA500ED6994 /* Assets.xcassets */,
+				AB7656DF268D3CA500ED6994 /* LaunchScreen.storyboard */,
+				AB7656E2268D3CA500ED6994 /* Info.plist */,
+				ABD2343D268EE3FB004C0487 /* README.md */,
+			);
+			path = FriendsChatApp;
+			sourceTree = "<group>";
+		};
+		AB7656E9268D459200ED6994 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AB7656EC268D45B800ED6994 /* LoginViewController.swift */,
+				AB7656F0268D45C800ED6994 /* SignUpViewController.swift */,
+				AB7656F3268D45F400ED6994 /* MessagesTableViewController.swift */,
+				AB7656F7268D462100ED6994 /* HomeScreenViewController.swift */,
+				ABD23439268EC88B004C0487 /* WeatherViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		AB7656EA268D459800ED6994 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AB7656DA268D3CA100ED6994 /* Main.storyboard */,
+				AB765773268D840900ED6994 /* MessagesTableViewCell.swift */,
+				AB765774268D840900ED6994 /* MessagesTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AB7656EB268D45A000ED6994 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ABD2342F268EC7BC004C0487 /* WeatherModel */,
+				AB7656FD268D4D9B00ED6994 /* Messages.swift */,
+				AB765700268D4E6100ED6994 /* Constants.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		ABD2342F268EC7BC004C0487 /* WeatherModel */ = {
+			isa = PBXGroup;
+			children = (
+				ABD23430268EC80A004C0487 /* WeatherData.swift */,
+				ABD23433268EC81E004C0487 /* WeatherDetails.swift */,
+				ABD23436268EC837004C0487 /* WeatherApi.swift */,
+			);
+			path = WeatherModel;
+			sourceTree = "<group>";
+		};
+		E6F2365FB0BEE7C6DA15974E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4006BEA87C7A13482AE0ADAC /* Pods_FriendsChatApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB7656D0268D3CA100ED6994 /* FriendsChatApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB7656E5268D3CA500ED6994 /* Build configuration list for PBXNativeTarget "FriendsChatApp" */;
+			buildPhases = (
+				F912C154BA5FCB18938F5CE7 /* [CP] Check Pods Manifest.lock */,
+				AB7656CD268D3CA100ED6994 /* Sources */,
+				AB7656CE268D3CA100ED6994 /* Frameworks */,
+				AB7656CF268D3CA100ED6994 /* Resources */,
+				1327A72E6BFE0A0A12B0B060 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FriendsChatApp;
+			productName = FriendsChatApp;
+			productReference = AB7656D1268D3CA100ED6994 /* FriendsChatApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB7656C9268D3CA100ED6994 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					AB7656D0268D3CA100ED6994 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = AB7656CC268D3CA100ED6994 /* Build configuration list for PBXProject "FriendsChatApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB7656C8268D3CA100ED6994;
+			productRefGroup = AB7656D2268D3CA100ED6994 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB7656D0268D3CA100ED6994 /* FriendsChatApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB7656CF268D3CA100ED6994 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB7656E1268D3CA500ED6994 /* LaunchScreen.storyboard in Resources */,
+				AB76570D268D5AAA00ED6994 /* GoogleService-Info.plist in Resources */,
+				AB7656DE268D3CA500ED6994 /* Assets.xcassets in Resources */,
+				AB7656DC268D3CA100ED6994 /* Main.storyboard in Resources */,
+				AB765776268D840900ED6994 /* MessagesTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1327A72E6BFE0A0A12B0B060 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FriendsChatApp/Pods-FriendsChatApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FriendsChatApp/Pods-FriendsChatApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FriendsChatApp/Pods-FriendsChatApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F912C154BA5FCB18938F5CE7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FriendsChatApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB7656CD268D3CA100ED6994 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABD23434268EC81E004C0487 /* WeatherDetails.swift in Sources */,
+				AB7656ED268D45B800ED6994 /* LoginViewController.swift in Sources */,
+				AB7656F4268D45F400ED6994 /* MessagesTableViewController.swift in Sources */,
+				AB7656D5268D3CA100ED6994 /* AppDelegate.swift in Sources */,
+				ABD2343A268EC88B004C0487 /* WeatherViewController.swift in Sources */,
+				AB7656FE268D4D9B00ED6994 /* Messages.swift in Sources */,
+				ABD23437268EC837004C0487 /* WeatherApi.swift in Sources */,
+				AB7656D7268D3CA100ED6994 /* SceneDelegate.swift in Sources */,
+				AB7656F1268D45C800ED6994 /* SignUpViewController.swift in Sources */,
+				ABD23431268EC80A004C0487 /* WeatherData.swift in Sources */,
+				AB7656F8268D462100ED6994 /* HomeScreenViewController.swift in Sources */,
+				AB765775268D840900ED6994 /* MessagesTableViewCell.swift in Sources */,
+				AB765701268D4E6100ED6994 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AB7656DA268D3CA100ED6994 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB7656DB268D3CA100ED6994 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AB7656DF268D3CA500ED6994 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB7656E0268D3CA500ED6994 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB7656E3268D3CA500ED6994 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AB7656E4268D3CA500ED6994 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB7656E6268D3CA500ED6994 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5AA7A9F0D44D14AD510EB93 /* Pods-FriendsChatApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FriendsChatApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.deshawashington.FriendsChatApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AB7656E7268D3CA500ED6994 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A424BF63FD21A4B7D015CB6F /* Pods-FriendsChatApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FriendsChatApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.deshawashington.FriendsChatApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB7656CC268D3CA100ED6994 /* Build configuration list for PBXProject "FriendsChatApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB7656E3268D3CA500ED6994 /* Debug */,
+				AB7656E4268D3CA500ED6994 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB7656E5268D3CA500ED6994 /* Build configuration list for PBXNativeTarget "FriendsChatApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB7656E6268D3CA500ED6994 /* Debug */,
+				AB7656E7268D3CA500ED6994 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB7656C9268D3CA100ED6994 /* Project object */;
+}
